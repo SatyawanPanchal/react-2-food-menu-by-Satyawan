@@ -1,0 +1,81 @@
+
+.btnContainer{   
+   display: flex;
+   justify-content: center;
+   flex-direction: row;
+   gap: 40px;    
+}
+.title_container{
+display: flex;
+margin:0 auto;
+justify-content: center;
+text-decoration: underline;
+color: rgb(138, 18, 18);
+}
+.btn{
+    background-color: orange;
+    padding: 5px;
+    width: 90px;
+    letter-spacing: 0.5px;     
+    cursor: pointer;
+    border-radius: 10px;
+    color:black;
+    font-weight: 500;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+.btn:hover{
+    border: 3px solid rgb(91, 64, 13);
+}
+
+.card_container
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   
+    justify-content: space-around;
+     
+ 
+     
+}
+.card{
+   
+    border: 2px solid orange; 
+    width: 300px;
+    margin: 20px ;
+    border-radius: 10px;
+    padding: 10px;
+    border: 20x solid black;
+}
+
+.img_container{
+    width: 300px;
+    height: 300px;
+}
+
+.img_container img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.info_container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.info_container button{
+    background-color: rgb(235, 200, 136);
+    border:none;
+    border-radius: 5px;
+    padding: 5px;
+    color: red;
+    font-size: 15px;
+}
+
+.info_container button:hover{
+    color: white;
+    background-color: orange;
+}
